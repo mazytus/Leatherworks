@@ -1,3 +1,5 @@
+# This mod and any other The Long Dark mod made by me (TonisGaming) has been discontinued
+
 # Leatherworks
 Leatherworks is a mod, that gives players a way to renew leather to craft and mend items in the game and/or added by other mods.
 
