@@ -817,9 +817,10 @@ namespace Leatherworks
             var knife2 = GameManager.GetInventoryComponent().GearInInventory(LeatherworksUtils.knife2, 1);
             var knife1_exist = false;
             var knife2_exist = false;            
+            var thisGearItem = LWFunctionalities.ropeItem;
             //var knife3 = GameManager.GetInventoryComponent().GearInInventory(LeatherworksUtils.knifecamp1, 1);
             //var knife4 = GameManager.GetInventoryComponent().GearInInventory(LeatherworksUtils.knifecamp2, 1);
-
+    
             if (GameManager.GetInventoryComponent().GetBestGearItemWithName(LeatherworksUtils.knife1.name) is object)
             {
                 knife1 = GameManager.GetInventoryComponent().GetBestGearItemWithName(LeatherworksUtils.knife1.name);
@@ -897,4 +898,5 @@ namespace Leatherworks
 
     }
 }
+
 
