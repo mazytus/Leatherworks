@@ -854,7 +854,7 @@ namespace Leatherworks
             //{
             //    knife4.m_CurrentHP = knife4.m_CurrentHP - 7;
             //}
-
+            }
             GameManager.GetPlayerManagerComponent().InstantiateItemInPlayerInventory(LeatherworksUtils.barkrope, 1);
         }
 
@@ -898,5 +898,6 @@ namespace Leatherworks
 
     }
 }
+
 
 
